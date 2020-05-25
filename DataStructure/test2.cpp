@@ -9,7 +9,7 @@ int main()
     start_time = clock();
     int temp;
     ifstream infile;
-    infile.open("file_in", ios::in);//´ïµ½
+    infile.open("file_in", ios::in);//????
     while (infile >> temp)
         small_top[++n] = temp;
     infile.close();
